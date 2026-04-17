@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thành viên 12A4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="gioithieu.html">Giới thiệu</a>
+    <a href="kiniem.html">Kỉ niệm</a>
+    <a href="loinhangui.html">Lời nhắn gửi</a>
+    <a href="thanhvien.html">Thành viên</a>
+</nav>
+
+<div class="main-box">
+
+<div class="main-box">
+    <h1>👨‍👩‍👧‍👦 THÀNH VIÊN</h1>
+
+    <div class="team">
+
+        <div class="card" onclick="show('A')">
+            <img src="img/11.jpg">
+            <h2>Bùi Ngọc Tuấn Quốc</h2>
+        </div>
+
+        <div class="card" onclick="show('B')">
+            <img src="img/12.jpg">
+            <h2> Bùi Ngọc Nhật Quốc</h2>
+        </div>
+
+        <div class="card" onclick="show('C')">
+            <img src="img/13.jpg">
+            <h2>Tạ Đình Phong</h2>
+        </div>
+
+        <div class="card" onclick="show('D')">
+            <img src="img/14.jpg">
+            <h2>Huỳnh Thị Phương</h2>
+        </div>
+
+    </div>
+</div>
+
+<!-- POPUP -->
+<div id="popup">
+    <div class="popup-box">
+        <span onclick="hide()" class="close">&times;</span>
+        <h2 id="name"></h2>
+        <p id="info"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<!-- POPUP ẢNH TO -->
+<div id="popup">
+    <div class="popup-box">
+        <span class="close" onclick="hide()">&times;</span>
+        <img id="popup-img">
+        <h2 id="popup-name"></h2>
+        <p id="popup-info"></p>
+    </div>
+</div>
+</div>
+</div>
+<div></div>
+</main>
+    <footer>
+        <p>Nhóm 7 - 12A4 - THPT KRÔNG BÔNG | Năm học 2025-2026</p>
+    </footer>
+</body>
+
+</html>
+
+
+
